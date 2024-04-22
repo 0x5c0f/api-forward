@@ -1,0 +1,24 @@
+{
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/index.json"
+        },
+        {
+            "source": "/gemini/:match*",
+            "destination": "https://generativelanguage.googleapis.com/:match*"
+        },
+        {
+            "source": "/openai/:match*",
+            "destination": "https://api.openai.com/:match*"
+        },
+        {
+            "source": "/groq/:match*",
+            "destination": "https://api.groq.com/:match*"
+        },
+        {
+            "source": "/coze/:match*",
+            "destination": "https://api.coze.com/:match*"
+        }
+    ]
+}
