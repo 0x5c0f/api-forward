@@ -20,4 +20,4 @@
 - ...
 
 ## 其他问题 
-- 其他代理方式可以参考 [`那些杂七杂八的记录`](https://blog.0x5c0f.cc/2021/%E9%82%A3%E4%BA%9B%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB%E7%9A%84%E8%AE%B0%E5%BD%95/#openai-api%E6%8E%A5%E5%8F%A3%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%AE%9E%E7%8E%B0%E5%9B%BD%E5%86%85%E7%9B%B4%E6%8E%A5%E4%BD%BF%E7%94%A8)  
+- 其他代理方式可以参考 [`那些杂七杂八的记录`](https://blog.0x5c0f.cc/2021/%E9%82%A3%E4%BA%9B%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB%E7%9A%84%E8%AE%B0%E5%BD%95.1/#openai-api%E6%8E%A5%E5%8F%A3%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%AE%9E%E7%8E%B0%E5%9B%BD%E5%86%85%E7%9B%B4%E6%8E%A5%E4%BD%BF%E7%94%A8)  
