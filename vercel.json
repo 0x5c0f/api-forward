@@ -19,6 +19,10 @@
         {
             "source": "/coze/:match*",
             "destination": "https://api.coze.com/:match*"
+        },
+        {
+            "source": "/xai/:match*",
+            "destination": "https://api.x.ai/:match*"
         }
     ]
 }
