@@ -23,6 +23,10 @@
         {
             "source": "/xai/:match*",
             "destination": "https://api.x.ai/:match*"
+        },
+        {
+            "source": "/anthropic/:match*",
+            "destination": "https://api.anthropic.com/:match*"
         }
     ]
 }
