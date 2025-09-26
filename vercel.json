@@ -27,6 +27,10 @@
         {
             "source": "/anthropic/:match*",
             "destination": "https://api.anthropic.com/:match*"
+        },
+        {
+            "source": "/telegram/:match*",
+            "destination": "https://api.telegram.org/:match*"
         }
     ]
 }
