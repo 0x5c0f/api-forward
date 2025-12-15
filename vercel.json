@@ -1,36 +1,59 @@
 {
-    "rewrites": [
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.json"
+    },
+    {
+      "source": "/gemini/:match*",
+      "destination": "https://generativelanguage.googleapis.com/:match*"
+    },
+    {
+      "source": "/openai/:match*",
+      "destination": "https://api.openai.com/:match*"
+    },
+    {
+      "source": "/groq/:match*",
+      "destination": "https://api.groq.com/:match*"
+    },
+    {
+      "source": "/coze/:match*",
+      "destination": "https://api.coze.com/:match*"
+    },
+    {
+      "source": "/xai/:match*",
+      "destination": "https://api.x.ai/:match*"
+    },
+    {
+      "source": "/anthropic/:match*",
+      "destination": "https://api.anthropic.com/:match*"
+    },
+    {
+      "source": "/telegram/:match*",
+      "destination": "https://api.telegram.org/:match*"
+    },
+    {
+      "source": "/github/:match*",
+      "destination": "https://github.com/:match*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/github/:match*",
+      "headers": [
         {
-            "source": "/",
-            "destination": "/index.json"
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         },
         {
-            "source": "/gemini/:match*",
-            "destination": "https://generativelanguage.googleapis.com/:match*"
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
         },
         {
-            "source": "/openai/:match*",
-            "destination": "https://api.openai.com/:match*"
-        },
-        {
-            "source": "/groq/:match*",
-            "destination": "https://api.groq.com/:match*"
-        },
-        {
-            "source": "/coze/:match*",
-            "destination": "https://api.coze.com/:match*"
-        },
-        {
-            "source": "/xai/:match*",
-            "destination": "https://api.x.ai/:match*"
-        },
-        {
-            "source": "/anthropic/:match*",
-            "destination": "https://api.anthropic.com/:match*"
-        },
-        {
-            "source": "/telegram/:match*",
-            "destination": "https://api.telegram.org/:match*"
+          "key": "Access-Control-Allow-Headers",
+          "value": "X-Requested-With, Content-Type, Accept, Authorization"
         }
-    ]
+      ]
+    }
+  ]
 }
