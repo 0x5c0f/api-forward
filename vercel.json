@@ -35,6 +35,10 @@
     {
       "source": "/github/:match*",
       "destination": "https://github.com/:match*"
+    },
+    {
+      "source": "/openrouter/:match*",
+      "destination": "https://openrouter.ai/api/:match*"
     }
   ],
   "headers": [
