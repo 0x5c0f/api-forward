@@ -9,10 +9,6 @@
       "destination": "https://generativelanguage.googleapis.com/:match*"
     },
     {
-      "source": "/b-ai/:match*",
-      "destination": "https://api.b.ai/:match*"
-    },
-    {
       "source": "/openai/:match*",
       "destination": "https://api.openai.com/:match*"
     },
@@ -31,6 +27,10 @@
     {
       "source": "/anthropic/:match*",
       "destination": "https://api.anthropic.com/:match*"
+    },
+    {
+      "source": "/b-ai/:match*",
+      "destination": "https://api.b.ai/:match*"
     },
     {
       "source": "/telegram/:match*",
